@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lato:wght@300&family=Manrope:wght@500;700&family=Outfit:wght@300;400&display=swap');
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+--Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+--Grayish-Blue: hsl(212, 23%, 69%);
+--Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    padding: 100px 30px;
+    color: var(--Very-Dark-Grayish-Blue);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 13px; */
+}
+p{
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+}
+/* img{
+    max-width: 100%;
+} */
+.container{
+    /* width: 50%;
+    display: flex;
+    line-height: 20px;
+    border-radius: 10px; */
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    /* align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center; */
+}
+.container .des{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 720px; */
+  /* border-radius: 10px 0px 0px 10px; */
+  padding: 30px;
+}
+.container .des h2{
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+.container .main-image img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px ;
+}
+.container .avatar .open-share{
+    display: none;
+}
+.container .avatar .avatar-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container .avatar .avatar-img .avatar-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container .avatar .avatar-img .avatar-text img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#margin{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+#margin-left{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 700px;
+        margin: auto;
+
+    }
+}
+
+/* .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5%;
+    position: relative;
+}
+.text .heading{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 19px;
+}
+.text .subtext{
+    font-size: 14px;
+     margin-bottom: 3%;
+} */
